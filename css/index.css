@@ -1,0 +1,450 @@
+.container{
+    width:7rem ;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 0.9rem;
+    /*background: lightgreen;*/
+    background-image: linear-gradient(to right,rgb(246,222,76),rgb(254,219,5));
+    /*float: left;*/
+
+}
+.top-bar{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/
+
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*float: left;*/
+}
+.search-box{
+    width: 4rem;
+    height: 0.43rem;
+    background: azure;
+    border-radius: 0.21rem;
+    /*margin-left: 1.17rem;*/
+    margin: 0;
+    float: left;
+    line-height: 0.43rem;
+    /*align-self: center;*/
+}
+.search-word{
+    width: 2.1rem;
+    height: 0.25rem;
+    font-size: 12px;
+    color: rgb(168,168,168);
+    margin-left: 0.1rem;
+    border: none;
+    letter-spacing: 1px;
+
+}
+.search-image{
+    width: 0.25rem;
+    height: 0.25rem;
+    /*background: red;*/
+
+    color: rgb(168,168,168);
+    font-size: 0.13rem;
+    margin-left: 0.1rem;
+    margin-top: 0.04rem;
+}
+.scan-box{
+    width: 0.43rem;
+    height: 0.43rem;
+    /*background: #ff6700;*/
+    /*border-radius: 50%;*/
+    /*margin-left: 0.34rem;*/
+    float: left;
+    font-size: 0.5rem;
+    color: white;
+    margin-top: 0.05rem;
+}
+.map{
+    width: 1.11rem;
+    height: 0.45rem;
+    /*background: rebeccapurple;*/
+    float: left;
+    line-height: 0.43rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.34rem;
+}
+.map .map-image{
+    width: 0.27rem;
+    height: 0.36rem;
+    /*background: lightslategrey;*/
+    font-size: 0.36rem;
+    color: white;
+}
+.map p{
+    font-size: 0.34rem;
+    color: white;
+    /*margin-left: 0.4rem;*/
+
+}
+.banner{
+    width: 100%;
+    height: 4.24rem;
+    background: #f6de4b;
+    margin-top: 0.29rem;
+
+}
+.banner .container .image-box{
+    width:7rem;
+    height: 3.97rem;
+    background: bisque;
+    margin: 0 auto;
+    position: relative;
+
+}
+.banner .container .image-box>li{
+    width: 100%;
+    height: 3.97rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*background: green;*/
+    /*margin: 0 auto;*/
+}
+.image-box>li>img{
+    display: block;
+    width: 100%;
+    height: 3.97rem;
+
+}
+.banner .container .image-box>li.active{
+    z-index:7;
+
+}
+.banner .container .page-box{
+    width: 1.1rem;
+    height: 0.13rem;
+    /*background: orangered;*/
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 2.95rem;
+    /*bottom: 0.05rem;*/
+    z-index: 999;
+
+}
+.page-box li{
+    height: 0.13rem;
+    width: 0.13rem;
+    border-radius: 50%;
+    background: white;
+
+}
+.page-box li.active{
+    background: green;
+}
+/*黄色开始*/
+.yellow{
+    width: 100%;
+    height: 3.03rem;
+    /*background: lightslategrey;*/
+    background-image: linear-gradient(to right,rgb(246,222,76),rgb(254,219,5));
+    margin-top: 0.58rem;
+    box-shadow: 0.09rem 0.16rem 0.20rem rgba(253,223,39,0.59);
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.yellow a{
+    display: block;
+    width: 1.75rem;
+    height: 1.3rem;
+    /*background: rebeccapurple;*/
+    margin-top: 0.2rem;
+}
+.yellow .nav-image{
+    width: 0.7rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    margin: 0 auto;
+
+}
+.yellow .nav-image img{
+    width: 0.66rem;
+    height: 0.58rem;
+
+}
+.yellow .nav-word{
+    width:0.53rem ;
+    height: 0.26rem;
+    color: black;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.26rem;
+    margin-left: 0.56rem;
+}
+
+/*热门推荐开始*/
+.hot{
+    width: 2.14rem;
+    height: 1.10rem;
+    /*background: green;*/
+    margin: 25px auto 25px auto;
+    position: relative;
+}
+.circle{
+    width: 1.10rem;
+    height: 1.10rem;
+    border: 10px solid rgb(251,222,43);
+    border-radius: 50%;
+}
+.square{
+    width: 1.56rem;
+    height: 0.41rem;
+    background: white;
+    border: 1px solid black;
+    position: absolute;
+    top:0.34rem;
+    left: 0.55rem;
+    font-size: 12px;
+    color: black;
+    letter-spacing: 2px;
+    margin: auto auto;
+    /*line-height: 2rem;*/
+
+}
+.square p{
+    width: 1.2rem;
+    height: 0.27rem;
+    margin: 0 auto;
+}
+.hot-bottom-1{
+    width: 100%;
+    height: 5.38rem;
+    background:rgb(240,239,243);
+    border-radius: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+
+}
+.hot-bottom-1-image{
+    width: 100%;
+    height: 3.71rem;
+    background: yellowgreen;
+    /*border-radius: 20px;*/
+}
+.hot-bottom-1-image img{
+    width: 100%;
+    height: 100%;
+
+}
+.cake-1{
+    width: 100%;
+    height: 0.33rem;
+    font-size: 0.34rem;
+    color: rgb(53,53,54);
+    margin-bottom: 0.31rem;
+    margin-top: 0.25rem;
+    margin-left: 0.17rem;
+
+}
+.cake-2{
+    width: 100%;
+    height: 0.35rem;
+    margin: 0 0 0 0.17rem;
+    font-size: 0.25rem;
+    color: rgb(108,108,110);
+}
+/*.top-bar:before{*/
+    /*content: "";*/
+    /*display: block;*/
+    /*width: 0.42rem;*/
+
+/*}*/
+
+/*猜你喜欢下面的开始*/
+.like-bottom-1{
+    width: 6.43rem;
+    height: 1.45rem;
+    /*background: darkseagreen;*/
+    margin: 0 auto 0.45rem auto;
+    display: flex;
+    justify-content: space-between;
+    /*margin-bottom: 0.45rem;*/
+
+}
+.like-bottom-1 .like-1-image{
+    width: 1.45rem;
+    height: 1.45rem;
+    /*background: rosybrown;*/
+    box-shadow: 3px 6px 10px 5px rgba(0,0,0,0.21);
+
+}
+.like-bottom-1 .like-1-image img{
+    width: 100%;
+    height: 100%;
+}
+.like-1-word{
+    /*width: 100%;*/
+    height: 100%;
+    margin-left: 0.25rem;
+    /*background: orangered;*/
+    z-index: 1;
+    flex-grow: 1;
+
+}
+.like-bottom-1 .like-1-word .provence{
+    width: 100%;
+    height: 0.25rem;
+    /*background: #000;*/
+}
+.like-bottom-1 .like-1-word .provence h1{
+    width: 50%;
+    height: 0.24rem;
+    /*border: 0.01rem solid black;*/
+    font-size: 0.24rem;
+    color: black;
+    letter-spacing: 0.01rem;
+    margin-bottom: 0.12rem;
+    float: left;
+    /*float: left;*/
+}
+.like-bottom-1 .like-1-word .provence .five-star{
+    width: 1.41rem;
+    height: 0.25rem;
+    /*background: darkseagreen;*/
+    float: right;
+    font-size: 0.15rem;
+    line-height: 0.25rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+.like-bottom-1 .like-1-word .provence i{
+    font-size: 0.25rem;
+    float: left;
+    color: rgb(254,218,78);
+}
+
+.like-bottom-1 .like-1-word .provence-right{
+
+}
+.like-bottom-1 .like-1-word h1~p{
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.22rem;
+    color: #757575;
+    letter-spacing: 0.01rem;
+    margin:0.1rem 0;
+}
+.like-bottom-1 .like-1-word .vip{
+    width: 100%;
+    height: 0.28rem;
+}
+.like-bottom-1 .like-1-word .good{
+    margin-bottom: 0.05rem  ;
+    margin-top: 0.02rem;
+}
+.like-bottom-1 .like-1-word .vip .left{
+    width: 0.5rem;
+    height: 0.28rem;
+    border:1px solid  #757575;
+    font-size: 0.18rem;
+    /*margin: 0 auto;*/
+    line-height: 0.23rem;
+    color: rgb(202,177,25);
+    border-radius: 0.1rem;
+    float: left;
+}
+.like-bottom-1 .like-1-word .vip .left p{
+    width: 100%;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    float: left;
+
+}
+.like-bottom-1 .like-1-word .vip .right{
+    width: 2.5rem;
+    height: 0.28rem;
+    font-size: 0.18rem;
+    color: #757575;
+    margin-right: 0.1rem;
+    margin-left: 0.15rem;
+    float: left;
+    /*background: #000;*/
+}
+
+
+/*首页开始*/
+.finally{
+    width: 100%;
+    height: 0.97rem;
+    background: rgb(250, 255, 239);
+    box-shadow: 0 -0.05rem 0.1rem #cecece;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+.finally a{
+    display: block;
+    width: 0.5rem;
+    height: 100%;
+    /*background: wheat;*/
+    /*margin-left: 0.96rem;*/
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+}
+.finally a .finally-icon{
+    width: 100%;
+    height: 0.47rem;
+    /*background: #1b6d85;*/
+    /*margin-top:0.4rem;*/
+    margin-top: 0.08rem;
+
+}
+.finally a .finally-icon i{
+    width: 100%;
+    height: 100%;
+    font-size: 0.48rem;
+    color: rgb(120,120,119);
+    text-align: center;
+
+}
+.finally a .finally-icon i.active{
+    color: rgb(240,190,91);
+}
+.finally a .finally-text.active{
+    color: rgb(240,190,91);
+}
+.finally .finally-text{
+    width: 100%;
+    height: 0.2rem;
+    /*background: #000;*/
+    font-size: 0.2rem;
+    color: rgb(120,120,119);
+    text-align: center;
+    margin-bottom: 0.08rem;
+}
+.box{
+    width: 100%;
+    height: 1rem;
+    background: #000;
+}
+
+
+
+.llll{
+    width: 100%;
+    height: 4rem;
+    background: red;
+}

@@ -1,0 +1,278 @@
+.order-top{
+    width: 100%;
+    height: 4.06rem;
+    /*background: lightseagreen;*/
+    position: relative;
+    border: 1px solid white;
+    margin-bottom: 0
+
+}
+.order-top-little{
+    width: 7.5rem;
+    height: 100%;
+    background: red;
+    margin: 0 auto;
+}
+.order-top-little img{
+    width: 100%;
+    height: 100%;
+}
+.my-order-text{
+    width: 1.2rem;
+    height: 0.28rem;
+    text-align: center;
+    line-height: 0.28rem;
+    /*background: palevioletred;*/
+    font-size: 0.28rem;
+    letter-spacing: 0.02rem;
+    position: absolute;
+    /*margin: 0.69rem 3.14rem 0 3.21rem;*/
+    left: 50%;
+    margin-left: -0.6rem;
+    top: 3rem;
+}
+.circle{
+    width: 2.02rem;
+    height: 2.02rem;
+    /*background: #a7c1ee;*/
+    margin: 2.4rem auto 0.2rem auto;
+    border: 2px solid rgba(255,255,255,0.71);
+    border-radius: 50%;
+    position: absolute;
+    top: -1.6rem;
+    left:50% ;
+    margin-left: -1.01rem;
+}
+.circle .circle-middle{
+    width: 1.8rem;
+    height: 1.8rem;
+    /*background: #f7c2eb;*/
+    margin: 0.1rem auto 0 auto;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.circle .circle-middle .circle-min{
+    width:1.49rem ;
+    height: 1.49rem;
+    background: #acecea;
+    margin: 0.08rem auto 0.08rem auto;
+    border-radius: 50%;
+    box-shadow: 0.05rem 0.05rem 0.15rem #757575;
+}
+
+.circle .circle-middle .circle-min img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/*提现开始*/
+.withdraw{
+    width: 100%;
+    height: 1.11rem;
+    /*background: #000;*/
+    margin-top: 0;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*flex-wrap: nowrap;*/
+    /*align-items: center;*/
+}
+.withdraw .withdraw-little{
+    width: 7.5rem;
+    height: 100%;
+    /*background: red;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.withdraw .withdraw-little .withdraw-item{
+    display: block;
+    width:1rem ;
+    height: 0.32rem;
+    /*background: red;*/
+}
+.withdraw .withdraw-little .withdraw-item .withdraw-image{
+    width: 0.32rem;
+    height: 0.32rem;
+    /*background:#a8c1ee ;*/
+    margin-right: 0.11rem;
+    float: left;
+}
+.withdraw .withdraw-little .withdraw-item .withdraw-image i{
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.32rem;
+    color: #343434;
+}
+.withdraw .withdraw-little .withdraw-item .withdraw-text{
+    width: 0.5rem;
+    height: 100%;
+    text-align: left;
+    line-height: 0.32rem;
+    /*background: #a8c1ee;*/
+    float: left;
+    color: #343434;
+}
+
+
+/*收获地址开始*/
+.address{
+    width: 100%;
+    height: 3.56rem;
+    /*background: #e2e2e2;*/
+    border-bottom: 1px solid white;
+}
+.address-little{
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+}
+.first-line,.last-line{
+    width: 7.5rem;
+    height: 0.08rem;
+    background: #e5e5e5;
+    margin: 0 auto;
+}
+.address .address-little .delivery-address,.service .delivery-address{
+    width: 100%;
+    height: 0.85rem;
+    /*background: red;*/
+    display: block;
+    border-bottom: 1px solid #f2f2f2;
+}
+.address .address-little .delivery-address .delivery-left,.service .delivery-address .delivery-left{
+    width: 1.44rem;
+    height: 100%;
+    /*background: #a7cafd;*/
+    margin-right: 2.84rem;
+    float: left;
+    margin-left: 0.4rem;
+
+
+}
+.address .address-little .delivery-address .delivery-left .delivery-left-image,.service .delivery-address .delivery-left .delivery-left-image{
+    width: 0.34rem;
+    height: 100%;
+    /*background: #cbf97f;*/
+    margin-right: 0.10rem;
+    float: left;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.85rem;
+}
+.address .address-little .delivery-address .delivery-left .delivery-left-image i,.service .delivery-address .delivery-left .delivery-left-image i{
+    font-size: 0.4rem;
+    color: #fd4e4e;
+    /*box-shadow: 0 0 0.01rem #fd4e4e;*/
+}
+.address .address-little .delivery-address .delivery-left .delivery-left-text,.service .delivery-address .delivery-left .delivery-left-text{
+    width: 1rem;
+    height: 100%;
+    /*background: #cbf97f;*/
+    float: left;
+    font-size: 0.24rem;
+    text-align: left;
+    line-height: 0.85rem;
+    color: #3f3f3f;
+    letter-spacing: 0.01rem;
+}
+.address .address-little .delivery-address .delivery-right{
+    width: 2.55rem;
+    height: 100%;
+    /*background: #b4b6ea;*/
+    float: left;
+
+}
+.address .address-little .delivery-address .delivery-right .delivery-right-text{
+    width: 1.9rem;
+    height: 100%;
+    /*background: #f5bda1;*/
+    text-align: left;
+    line-height: 0.85rem;
+    color: #3f3f3f;
+    letter-spacing: 0.01rem;
+    float: left;
+}
+.address .address-little .delivery-address .delivery-right .delivery-right-image{
+    width:0.3rem ;
+    height: 100%;
+    /*background: #8cdee1;*/
+    float: right;
+    line-height: 0.85rem;
+}
+.address .address-little .delivery-address .delivery-right .delivery-right-image i{
+    color: #3f3f3f;
+    font-size: 0.3rem;
+}
+
+
+/*最下面的开始*/
+.service{
+    width: 100%;
+    height: 2.55rem;
+    /*background: #fac2eb;*/
+    margin-bottom: 1rem;
+}
+.service-little{
+    width: 7.5rem;
+    height: 100%;
+    margin: 0 auto;
+}
+/*最下面结束*/
+
+
+/*最最下开始*/
+.finally{
+    width: 100%;
+    height: 0.97rem;
+    background: #fffffd;
+    box-shadow: 0 -0.05rem 0.1rem #cecece;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+.finally a{
+    display: block;
+    width: 0.5rem;
+    height: 100%;
+    /*background: wheat;*/
+    /*margin-left: 0.96rem;*/
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+}
+.finally a .finally-icon{
+    width: 100%;
+    height: 0.47rem;
+    /*background: #1b6d85;*/
+    /*margin-top:0.4rem;*/
+    margin-top: 0.08rem;
+
+}
+.finally a .finally-icon i{
+    width: 100%;
+    height: 100%;
+    font-size: 0.48rem;
+    color: rgb(120,120,119);
+    text-align: center;
+
+}
+.finally a .finally-icon i.active{
+    color: rgb(240,190,91);
+}
+.finally a .finally-text.active{
+    color: rgb(240,190,91);
+}
+.finally .finally-text{
+    width: 100%;
+    height: 0.2rem;
+    /*background: #000;*/
+    font-size: 0.2rem;
+    color: rgb(120,120,119);
+    text-align: center;
+    margin-bottom: 0.08rem;
+}
+/*最最下结束*/
